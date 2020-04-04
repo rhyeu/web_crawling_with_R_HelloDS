@@ -1,0 +1,49 @@
+---
+title: "1강"
+author: "류성균"
+date: '2020 4 4 '
+header-includes: \title{1강 개요}
+output:
+  html_document:
+    fig_height: 6
+    fig_width: 10
+    highlight: textmate
+    theme: cosmo
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+fontsize: 12pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### 1. 웹 크롤링 
+  - 웹 크롤러 : 여러 웹 페이지를 탐색
+  - 웹 스크래핑 : 웹 페이지에서 필요한 내용을 선택하여 수집 / 가공
+  - 웹페이지에 따라 서로 다른 방법으로 웹 크롤링을 적용해야함...
+  
+
+### 2. 웹 크롤링 시연
+
+```{r}
+# install.packages(c("tidyverse", "httr", "rvest"))
+# install.packages("jsonlite")
+
+library(tidyverse)
+library(httr)
+library(rvest)
+library(jsonlite)
+```
+
+#### 
+```{r}
+Sys.setlocale(category = "LC_ALL", locale = 'C' )
+
+
+
+Sys.setlocale(category = "LC_ALL", locale = "korean")
+```
+
+
